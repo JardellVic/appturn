@@ -11,8 +11,8 @@ class XangoPage extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.stretch,
           mainAxisSize: MainAxisSize.min,
           children: [
-            Image.asset(
-              'imagens/orixa/xango.jpg',
+            Image.network(
+              'https://jardellvic.github.io/appturn/imagens/orixa/xango.jpg',
               fit: BoxFit.cover,
             ),
             Padding(

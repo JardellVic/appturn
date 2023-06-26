@@ -11,8 +11,8 @@ class OxalaPage extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.stretch,
           mainAxisSize: MainAxisSize.min,
           children: [
-            Image.asset(
-              'imagens/orixa/oxala.jpg',
+            Image.network(
+              'https://jardellvic.github.io/appturn/imagens/orixa/oxala.jpg',
               fit: BoxFit.cover,
             ),
             Padding(

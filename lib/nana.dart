@@ -11,8 +11,8 @@ class NanaPage extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.stretch,
           mainAxisSize: MainAxisSize.min,
           children: [
-            Image.asset(
-              'imagens/orixa/nana.jpg',
+            Image.network(
+              'https://jardellvic.github.io/appturn/imagens/orixa/nana.jpg',
               fit: BoxFit.cover,
             ),
             Padding(

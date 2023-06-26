@@ -11,8 +11,8 @@ class OgumPage extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.stretch,
           mainAxisSize: MainAxisSize.min,
           children: [
-            Image.asset(
-              'imagens/orixa/ogum.jpg',
+            Image.network(
+              'https://jardellvic.github.io/appturn/imagens/orixa/ogum.jpg',
               fit: BoxFit.cover,
             ),
             Padding(

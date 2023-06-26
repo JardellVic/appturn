@@ -11,8 +11,8 @@ class IansaPage extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.stretch,
           mainAxisSize: MainAxisSize.min,
           children: [
-            Image.asset(
-              'imagens/orixa/iansa.jpg',
+            Image.network(
+              'https://jardellvic.github.io/appturn/imagens/orixa/iansa.jpg',
               fit: BoxFit.cover,
             ),
             Padding(

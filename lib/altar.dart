@@ -11,8 +11,8 @@ class AltarPage extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.stretch,
           mainAxisSize: MainAxisSize.min,
           children: [
-            Image.asset(
-              'imagens/orixas/altar.jpg',
+            Image.network(
+              'https://jardellvic.github.io/appturn/imagens/orixas/altar.jpg',
               fit: BoxFit.cover,
             ),
             Padding(

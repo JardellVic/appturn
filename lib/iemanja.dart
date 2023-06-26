@@ -11,8 +11,8 @@ class IemanjaPage extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.stretch,
           mainAxisSize: MainAxisSize.min,
           children: [
-            Image.asset(
-              'imagens/orixa/iemanja.jpg',
+            Image.network(
+              'https://jardellvic.github.io/appturn/imagens/orixa/iemanja.jpg',
               fit: BoxFit.cover,
             ),
             Padding(

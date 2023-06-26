@@ -11,8 +11,8 @@ class OxossiPage extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.stretch,
           mainAxisSize: MainAxisSize.min,
           children: [
-            Image.asset(
-              'imagens/orixa/oxossi.jpg',
+            Image.network(
+              'https://jardellvic.github.io/appturn/imagens/orixa/oxossi.jpg',
               fit: BoxFit.cover,
             ),
             Padding(

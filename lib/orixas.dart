@@ -21,7 +21,8 @@ class OrixasPage extends StatelessWidget {
         crossAxisCount: 2, // Define o número de colunas na grade
         children: [
           ElevatedCardExample(
-            imagePath: 'imagens/orixas/altar.jpg',
+            imagePath:
+                'https://jardellvic.github.io/appturn/imagens/orixas/altar.jpg',
             description: 'Oque é?',
             onPressed: () {
               // Ação ao pressionar o primeiro card
@@ -32,7 +33,8 @@ class OrixasPage extends StatelessWidget {
             },
           ),
           ElevatedCardExample(
-            imagePath: 'imagens/orixas/oxala.jpg',
+            imagePath:
+                'https://jardellvic.github.io/appturn/imagens/orixas/oxala.jpg',
             description: 'èpa bàbá!',
             onPressed: () {
               // Ação ao pressionar o segundo card
@@ -43,7 +45,8 @@ class OrixasPage extends StatelessWidget {
             },
           ),
           ElevatedCardExample(
-            imagePath: 'imagens/orixas/nana.jpg',
+            imagePath:
+                'https://jardellvic.github.io/appturn/imagens/orixas/nana.jpg',
             description: 'Salubá',
             onPressed: () {
               // Ação ao pressionar o terceiro card
@@ -54,7 +57,8 @@ class OrixasPage extends StatelessWidget {
             },
           ),
           ElevatedCardExample(
-            imagePath: 'imagens/orixas/oxossi.jpg',
+            imagePath:
+                'https://jardellvic.github.io/appturn/imagens/orixas/oxossi.jpg',
             description: 'Oke Aro',
             onPressed: () {
               // Ação ao pressionar o quarto card
@@ -65,7 +69,8 @@ class OrixasPage extends StatelessWidget {
             },
           ),
           ElevatedCardExample(
-            imagePath: 'imagens/orixas/xango.jpg',
+            imagePath:
+                'https://jardellvic.github.io/appturn/imagens/orixas/xango.jpg',
             description: 'Kaô kabecile',
             onPressed: () {
               // Ação ao pressionar o quinto card
@@ -76,7 +81,8 @@ class OrixasPage extends StatelessWidget {
             },
           ),
           ElevatedCardExample(
-            imagePath: 'imagens/orixas/ogum.jpg',
+            imagePath:
+                'https://jardellvic.github.io/appturn/imagens/orixas/ogum.jpg',
             description: 'Ogunhe',
             onPressed: () {
               // Ação ao pressionar o sexto card
@@ -87,7 +93,8 @@ class OrixasPage extends StatelessWidget {
             },
           ),
           ElevatedCardExample(
-            imagePath: 'imagens/orixas/omulu.jpg',
+            imagePath:
+                'https://jardellvic.github.io/appturn/imagens/orixas/omulu.jpg',
             description: 'Atoto',
             onPressed: () {
               // Ação ao pressionar o sétimo card
@@ -98,7 +105,8 @@ class OrixasPage extends StatelessWidget {
             },
           ),
           ElevatedCardExample(
-            imagePath: 'imagens/orixas/iansa.jpg',
+            imagePath:
+                'https://jardellvic.github.io/appturn/imagens/orixas/iansa.jpg',
             description: 'Eparrey',
             onPressed: () {
               // Ação ao pressionar o oitavo card
@@ -109,7 +117,8 @@ class OrixasPage extends StatelessWidget {
             },
           ),
           ElevatedCardExample(
-            imagePath: 'imagens/orixas/oxum.jpg',
+            imagePath:
+                'https://jardellvic.github.io/appturn/imagens/orixas/oxum.jpg',
             description: 'Orayeye',
             onPressed: () {
               // Ação ao pressionar o nono card
@@ -120,7 +129,8 @@ class OrixasPage extends StatelessWidget {
             },
           ),
           ElevatedCardExample(
-            imagePath: 'imagens/orixas/iemanja.jpg',
+            imagePath:
+                'https://jardellvic.github.io/appturn/imagens/orixas/iemanja.jpg',
             description: 'Odociaba',
             onPressed: () {
               // Ação ao pressionar o décimo card
@@ -131,7 +141,8 @@ class OrixasPage extends StatelessWidget {
             },
           ),
           ElevatedCardExample(
-            imagePath: 'imagens/orixas/ibeji.jpg',
+            imagePath:
+                'https://jardellvic.github.io/appturn/imagens/orixas/ibeji.jpg',
             description: 'Dois Dois',
             onPressed: () {
               // Ação ao pressionar o décimo primeiro card
@@ -169,7 +180,7 @@ class ElevatedCardExample extends StatelessWidget {
         child: Column(
           children: [
             Expanded(
-              child: Image.asset(
+              child: Image.network(
                 imagePath,
                 fit: BoxFit.cover,
               ),

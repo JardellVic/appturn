@@ -11,8 +11,8 @@ class OxumPage extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.stretch,
           mainAxisSize: MainAxisSize.min,
           children: [
-            Image.asset(
-              'imagens/orixa/oxum.jpg',
+            Image.network(
+              'https://jardellvic.github.io/appturn/imagens/orixa/oxum.jpg',
               fit: BoxFit.cover,
             ),
             Padding(

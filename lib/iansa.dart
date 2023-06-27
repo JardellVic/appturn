@@ -18,7 +18,7 @@ class IansaPage extends StatelessWidget {
             Padding(
               padding: EdgeInsets.all(16.0),
               child: Text(
-                'Quem ou o quê são os Orixás?',
+                'Iansã',
                 style: TextStyle(
                   fontSize: 20,
                   fontWeight: FontWeight.bold,
@@ -28,7 +28,7 @@ class IansaPage extends StatelessWidget {
             Padding(
               padding: EdgeInsets.all(16.0),
               child: Text(
-                'Com certeza em algum momento da vida de vocês, principalmente quando a curiosidade por religiões de matriz africana aflorou, já se perguntaram: qual o meu Orixá? Ou ainda: o quê é um Orixá? Vejam bem, vamos explicar de forma bem didática para que não fique dúvidas.',
+                'Orixá da ordem é conhecida pelos ventos, ventanias, furacões e tempestades. Assim como tudo no universo, para que a ordem se estabeleça, as vezes é preciso que se mova tudo do lugar, assim é a energia desta Orixá. Pode parecer caótico, mas é só Iansã colocando ordem na casa!',
                 style: TextStyle(
                   fontSize: 20,
                   fontWeight: FontWeight.bold,
@@ -38,14 +38,143 @@ class IansaPage extends StatelessWidget {
             Padding(
               padding: EdgeInsets.all(16.0),
               child: Text(
-                'Primeiramente é importante lembrar que a Umbanda carrega em si fragmentos ou partes de diversas culturas ou religiões, ou seja, não carrega consigo todo o ritual ou todo o pensamento de onde esse fragmento veio.',
+                'Sincretismo: Santa Bárbara',
                 style: TextStyle(
                   fontSize: 20,
                   fontWeight: FontWeight.bold,
                 ),
               ),
             ),
-            // Adicione mais partes do texto aqui...
+            Padding(
+              padding: EdgeInsets.all(16.0),
+              child: Text(
+                'Cores: Amarelo (principal), vermelho e cobre (laranja)',
+                style: TextStyle(
+                  fontSize: 20,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+            ),
+            Padding(
+              padding: EdgeInsets.all(16.0),
+              child: Text(
+                'Significado do nome: Oyá (mãe do entardecer)',
+                style: TextStyle(
+                  fontSize: 20,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+            ),
+            Padding(
+              padding: EdgeInsets.all(16.0),
+              child: Text(
+                'Saudação: Eparrey Oyá (salve os majestosos ventos de Oyá, salve os ventos da mãe do entardecer)',
+                style: TextStyle(
+                  fontSize: 20,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+            ),
+            Padding(
+              padding: EdgeInsets.all(16.0),
+              child: Text(
+                'Ervas: Espada de Santa Bárbara, rosa amarela, folhas de romã, folhas de pitanga, folhas de acerola, bambu, losna, erva-de-santa-barbara.',
+                style: TextStyle(
+                  fontSize: 20,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+            ),
+            Padding(
+              padding: EdgeInsets.all(16.0),
+              child: Text(
+                'Pedras: Citrino, ágata de fogo, calcita amarela',
+                style: TextStyle(
+                  fontSize: 20,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+            ),
+            Padding(
+              padding: EdgeInsets.all(16.0),
+              child: Text(
+                'Linhas: Baianos',
+                style: TextStyle(
+                  fontSize: 20,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+            ),
+            Padding(
+              padding: EdgeInsets.all(16.0),
+              child: Text(
+                'Os baianos vem em terra com o arquétipo muito marcado do povo vindo do nordeste do Brasil. Muito alegres gostam de dançar e cantar. Também especialistas nas limpezas auxiliam na organização das energias e dispersam qualquer energia de baixa vibração que esteja no terreiro através de sua alegria.',
+                style: TextStyle(
+                  fontSize: 20,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+            ),
+            Padding(
+              padding: EdgeInsets.all(16.0),
+              child: Text(
+                'Dia da semana: Quarta-feira',
+                style: TextStyle(
+                  fontSize: 20,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+            ),
+            Padding(
+              padding: EdgeInsets.all(16.0),
+              child: Text(
+                'Data Festiva: 04/12',
+                style: TextStyle(
+                  fontSize: 20,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+            ),
+            Padding(
+              padding: EdgeInsets.all(16.0),
+              child: Text(
+                'Símbolo/ferramenta: Eruexim/raio, furacão',
+                style: TextStyle(
+                  fontSize: 20,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+            ),
+            Padding(
+              padding: EdgeInsets.all(16.0),
+              child: Text(
+                'Ponto de força: Bambuzais e canaviais',
+                style: TextStyle(
+                  fontSize: 20,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+            ),
+            Padding(
+              padding: EdgeInsets.all(16.0),
+              child: Text(
+                'Animal: Borboleta e búfalo',
+                style: TextStyle(
+                  fontSize: 20,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+            ),
+            Padding(
+              padding: EdgeInsets.all(16.0),
+              child: Text(
+                'Comida: Acarajé (bolinho de feijão)',
+                style: TextStyle(
+                  fontSize: 20,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+            ),
           ],
         ),
       ),

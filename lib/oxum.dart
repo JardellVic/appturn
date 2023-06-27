@@ -18,7 +18,7 @@ class OxumPage extends StatelessWidget {
             Padding(
               padding: EdgeInsets.all(16.0),
               child: Text(
-                'Quem ou o quê são os Orixás?',
+                'Oxum',
                 style: TextStyle(
                   fontSize: 20,
                   fontWeight: FontWeight.bold,
@@ -28,7 +28,7 @@ class OxumPage extends StatelessWidget {
             Padding(
               padding: EdgeInsets.all(16.0),
               child: Text(
-                'Com certeza em algum momento da vida de vocês, principalmente quando a curiosidade por religiões de matriz africana aflorou, já se perguntaram: qual o meu Orixá? Ou ainda: o quê é um Orixá? Vejam bem, vamos explicar de forma bem didática para que não fique dúvidas.',
+                'Orixá dos rios, riachos, cachoeiras... Água doce em movimento (água doce parada é de Nanã Buruquê na nossa doutrina). Ela é a Orixá do amor e da fertilidade. Estão ligados a ela, a fecundação e o amor entre os humanos. Sincretismo: Nossa Senhora da Conceição / Nossa Senhora Aparecida',
                 style: TextStyle(
                   fontSize: 20,
                   fontWeight: FontWeight.bold,
@@ -38,14 +38,143 @@ class OxumPage extends StatelessWidget {
             Padding(
               padding: EdgeInsets.all(16.0),
               child: Text(
-                'Primeiramente é importante lembrar que a Umbanda carrega em si fragmentos ou partes de diversas culturas ou religiões, ou seja, não carrega consigo todo o ritual ou todo o pensamento de onde esse fragmento veio.',
+                'Cores: Azul escuro (principal), amarelo e dourado',
                 style: TextStyle(
                   fontSize: 20,
                   fontWeight: FontWeight.bold,
                 ),
               ),
             ),
-            // Adicione mais partes do texto aqui...
+            Padding(
+              padding: EdgeInsets.all(16.0),
+              child: Text(
+                'Significado do nome: Mãe da água doce',
+                style: TextStyle(
+                  fontSize: 20,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+            ),
+            Padding(
+              padding: EdgeInsets.all(16.0),
+              child: Text(
+                'Saudação: Oraieieoh / Aieieoh (salve a benevolente mãezinha)',
+                style: TextStyle(
+                  fontSize: 20,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+            ),
+            Padding(
+              padding: EdgeInsets.all(16.0),
+              child: Text(
+                'Ervas: Melissa, rosa amarela, calêndula, canela, lírio, marcela, lágrimas-de-nossa-senhora, patchuli.',
+                style: TextStyle(
+                  fontSize: 20,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+            ),
+            Padding(
+              padding: EdgeInsets.all(16.0),
+              child: Text(
+                'Pedras: Quartzo rosa, safira azul',
+                style: TextStyle(
+                  fontSize: 20,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+            ),
+            Padding(
+              padding: EdgeInsets.all(16.0),
+              child: Text(
+                'Linhas: Pombogiras e Erês',
+                style: TextStyle(
+                  fontSize: 20,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+            ),
+            Padding(
+              padding: EdgeInsets.all(16.0),
+              child: Text(
+                'As Pombogiras são para nós a versão feminina dos Exus, ou melhor dizendo, a energia feminina da linha de Exus. A muitos anos atrás eram denominadas Exu Mulher. Além de trabalharem como guardiãs, atuam também nos campos amorosos, mas não como sacerdotisas que trazem o parceiro amoroso em sete dias, não é isso, mas são extremamente capazes de trazer o seu amor próprio em sete dias. Assim elas atuam, cuidando e orientando com relação ao amor próprio, ao próprio cuidado e zelo.',
+                style: TextStyle(
+                  fontSize: 20,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+            ),
+            Padding(
+              padding: EdgeInsets.all(16.0),
+              child: Text(
+                'Já a linha de erês é regida por essa Orixá graças a sua ligação com o amor fraterno, muito marcante na linha das crianças. Contudo, na TURN, temos como regente principal desta linha o Orixá Ibejí ou São Cosme e São Damião no sincretismo.',
+                style: TextStyle(
+                  fontSize: 20,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+            ),
+            Padding(
+              padding: EdgeInsets.all(16.0),
+              child: Text(
+                'Dia da semana: Sábado',
+                style: TextStyle(
+                  fontSize: 20,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+            ),
+            Padding(
+              padding: EdgeInsets.all(16.0),
+              child: Text(
+                'Data Festiva: 12/10 (Nossa Senhora Aparecida), 08/12 (Nossa Senhora da Conceição)',
+                style: TextStyle(
+                  fontSize: 20,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+            ),
+            Padding(
+              padding: EdgeInsets.all(16.0),
+              child: Text(
+                'Símbolo/ferramenta: Coração, Abébé (espelho)',
+                style: TextStyle(
+                  fontSize: 20,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+            ),
+            Padding(
+              padding: EdgeInsets.all(16.0),
+              child: Text(
+                'Ponto de força: Rios, leitos de rios, riachos e cachoeiras',
+                style: TextStyle(
+                  fontSize: 20,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+            ),
+            Padding(
+              padding: EdgeInsets.all(16.0),
+              child: Text(
+                'Animal: Animais de água doce, abelha',
+                style: TextStyle(
+                  fontSize: 20,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+            ),
+            Padding(
+              padding: EdgeInsets.all(16.0),
+              child: Text(
+                'Comida: Quindim, Feijão fradinho, Melão amarelo, Banana Ouro',
+                style: TextStyle(
+                  fontSize: 20,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+            ),
           ],
         ),
       ),

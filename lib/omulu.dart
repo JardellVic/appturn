@@ -18,7 +18,7 @@ class OmuluPage extends StatelessWidget {
             Padding(
               padding: EdgeInsets.all(16.0),
               child: Text(
-                'Quem ou o quê são os Orixás?',
+                'Omulu/Obaluaê',
                 style: TextStyle(
                   fontSize: 20,
                   fontWeight: FontWeight.bold,
@@ -28,7 +28,7 @@ class OmuluPage extends StatelessWidget {
             Padding(
               padding: EdgeInsets.all(16.0),
               child: Text(
-                'Com certeza em algum momento da vida de vocês, principalmente quando a curiosidade por religiões de matriz africana aflorou, já se perguntaram: qual o meu Orixá? Ou ainda: o quê é um Orixá? Vejam bem, vamos explicar de forma bem didática para que não fique dúvidas.',
+                'Importante sempre lembrarmos que, apesar do nome diferente, Omulu e Obaluaê são o mesmo Orixá, a mesma pessoa, só que em fases da vida ou idades diferentes. Obaluaê é a manifestação deste Orixá na sua fase mais jovem, nesta fase pedimos a este Orixá por saúde, recuperação de doenças e mazelas. Já em sua fase mais velha de vida, a Omulu recorremos quando existe a necessidade do encerramento de ciclos assim como a encarnação.',
                 style: TextStyle(
                   fontSize: 20,
                   fontWeight: FontWeight.bold,
@@ -38,14 +38,143 @@ class OmuluPage extends StatelessWidget {
             Padding(
               padding: EdgeInsets.all(16.0),
               child: Text(
-                'Primeiramente é importante lembrar que a Umbanda carrega em si fragmentos ou partes de diversas culturas ou religiões, ou seja, não carrega consigo todo o ritual ou todo o pensamento de onde esse fragmento veio.',
+                'Os pontos de força e elementos são os mesmos para as duas fases de vida do Orixá.',
                 style: TextStyle(
                   fontSize: 20,
                   fontWeight: FontWeight.bold,
                 ),
               ),
             ),
-            // Adicione mais partes do texto aqui...
+            Padding(
+              padding: EdgeInsets.all(16.0),
+              child: Text(
+                'Sincretismo: São Roque (Obaluaê) São Lázaro (Omulu)',
+                style: TextStyle(
+                  fontSize: 20,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+            ),
+            Padding(
+              padding: EdgeInsets.all(16.0),
+              child: Text(
+                'Cores: Amarelo, branco e preto',
+                style: TextStyle(
+                  fontSize: 20,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+            ),
+            Padding(
+              padding: EdgeInsets.all(16.0),
+              child: Text(
+                'Significado do nome: Rei / Senhor da Terra',
+                style: TextStyle(
+                  fontSize: 20,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+            ),
+            Padding(
+              padding: EdgeInsets.all(16.0),
+              child: Text(
+                'Saudação: Atotô / Atotô Ajuberô (silêncio e respeito a Obaluaê)',
+                style: TextStyle(
+                  fontSize: 20,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+            ),
+            Padding(
+              padding: EdgeInsets.all(16.0),
+              child: Text(
+                'Nanã Buruquê',
+                style: TextStyle(
+                  fontSize: 20,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+            ),
+            Padding(
+              padding: EdgeInsets.all(16.0),
+              child: Text(
+                'Ervas: Babosa, assa-peixe, canela de velho, folha de louro, barba de velho, quaresmeira, crisântemo, manjericão.',
+                style: TextStyle(
+                  fontSize: 20,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+            ),
+            Padding(
+              padding: EdgeInsets.all(16.0),
+              child: Text(
+                'Pedra: Onix preto',
+                style: TextStyle(
+                  fontSize: 20,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+            ),
+            Padding(
+              padding: EdgeInsets.all(16.0),
+              child: Text(
+                'Linha: Também as Almas/Pretos Velhos (vide Nanã Buruquê)',
+                style: TextStyle(
+                  fontSize: 20,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+            ),
+            Padding(
+              padding: EdgeInsets.all(16.0),
+              child: Text(
+                'Data Festiva: 16/08 (Obaluaê) 17/12 (Omulu)',
+                style: TextStyle(
+                  fontSize: 20,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+            ),
+            Padding(
+              padding: EdgeInsets.all(16.0),
+              child: Text(
+                'Símbolo/ferramenta: Cruzeiro, Xaxará',
+                style: TextStyle(
+                  fontSize: 20,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+            ),
+            Padding(
+              padding: EdgeInsets.all(16.0),
+              child: Text(
+                'Pontos de força: Calunga pequena (cemitério) e calunga grande (mar)',
+                style: TextStyle(
+                  fontSize: 20,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+            ),
+            Padding(
+              padding: EdgeInsets.all(16.0),
+              child: Text(
+                'Animal: Cachorro',
+                style: TextStyle(
+                  fontSize: 20,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+            ),
+            Padding(
+              padding: EdgeInsets.all(16.0),
+              child: Text(
+                'Comida: Pipoca (deburu)',
+                style: TextStyle(
+                  fontSize: 20,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+            ),
           ],
         ),
       ),

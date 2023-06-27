@@ -18,7 +18,7 @@ class XangoPage extends StatelessWidget {
             Padding(
               padding: EdgeInsets.all(16.0),
               child: Text(
-                'Quem ou o quê são os Orixás?',
+                'Xangô',
                 style: TextStyle(
                   fontSize: 20,
                   fontWeight: FontWeight.bold,
@@ -28,7 +28,7 @@ class XangoPage extends StatelessWidget {
             Padding(
               padding: EdgeInsets.all(16.0),
               child: Text(
-                'Com certeza em algum momento da vida de vocês, principalmente quando a curiosidade por religiões de matriz africana aflorou, já se perguntaram: qual o meu Orixá? Ou ainda: o quê é um Orixá? Vejam bem, vamos explicar de forma bem didática para que não fique dúvidas.',
+                'Orixá da justiça e do equilíbrio, é o responsável pelo julgamento e pela manutenção do equilíbrio na terra. A este Orixá geralmente se pede por justiça, contudo, muito cuidado com o que pede! Xangô sabe todas as versões da história, inclusive aquela que você desconsidera, logo, a justiça de Xangô pode não ser a que você espera, mas é a justiça de fato.',
                 style: TextStyle(
                   fontSize: 20,
                   fontWeight: FontWeight.bold,
@@ -38,14 +38,123 @@ class XangoPage extends StatelessWidget {
             Padding(
               padding: EdgeInsets.all(16.0),
               child: Text(
-                'Primeiramente é importante lembrar que a Umbanda carrega em si fragmentos ou partes de diversas culturas ou religiões, ou seja, não carrega consigo todo o ritual ou todo o pensamento de onde esse fragmento veio.',
+                'Sincretismo: São Jerônimo, São João Batista, São Pedro',
                 style: TextStyle(
                   fontSize: 20,
                   fontWeight: FontWeight.bold,
                 ),
               ),
             ),
-            // Adicione mais partes do texto aqui...
+            Padding(
+              padding: EdgeInsets.all(16.0),
+              child: Text(
+                'Significado do nome: Senhor da lei/justiça.',
+                style: TextStyle(
+                  fontSize: 20,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+            ),
+            Padding(
+              padding: EdgeInsets.all(16.0),
+              child: Text(
+                'Saudação: Kaô Kabecilê / Obanixé Kaô Kabicilê (venha saudar, a alteza está em terra/em casa).',
+                style: TextStyle(
+                  fontSize: 20,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+            ),
+            Padding(
+              padding: EdgeInsets.all(16.0),
+              child: Text(
+                'Ervas: Quebra-pedra, cipó de São João, cravo vermelho, vence demanda/quebra demanda, manjericão roxo, picão preto, alevante, pessegueiro (flor e folhas)',
+                style: TextStyle(
+                  fontSize: 20,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+            ),
+            Padding(
+              padding: EdgeInsets.all(16.0),
+              child: Text(
+                'Pedras: Jaspe vermelha, olho de tigre, pedra do sol, bauxita.',
+                style: TextStyle(
+                  fontSize: 20,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+            ),
+            Padding(
+              padding: EdgeInsets.all(16.0),
+              child: Text(
+                'Linhas: Boiadeiros/Caboclos Boiadeiros Existe uma grande similaridade entre os caboclos de pena e os caboclos boiadeiros. Ambas as linhas trabalham com curas, contudo os caboclos boiadeiros são especialistas em desfazer feitiços e demandas. Vêm na Umbanda com o arquétipo de sertanejos que cuidam do manejo do gado. Com seus gritos e chicotadas, afastam os maus espíritos e as energias negativas que nos cercam. Estão ligados também à procura por emprego.',
+                style: TextStyle(
+                  fontSize: 20,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+            ),
+            Padding(
+              padding: EdgeInsets.all(16.0),
+              child: Text(
+                'Dia da semana: Quarta-feira',
+                style: TextStyle(
+                  fontSize: 20,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+            ),
+            Padding(
+              padding: EdgeInsets.all(16.0),
+              child: Text(
+                'Data Festiva: 24/06 (São João Batista), 29/06 (São Pedro), 30/09 (São Jerônimo)',
+                style: TextStyle(
+                  fontSize: 20,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+            ),
+            Padding(
+              padding: EdgeInsets.all(16.0),
+              child: Text(
+                'Símbolo/ferramenta: Oxé (machado de duas lâminas)',
+                style: TextStyle(
+                  fontSize: 20,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+            ),
+            Padding(
+              padding: EdgeInsets.all(16.0),
+              child: Text(
+                'Ponto de força: Pedreiras e montanhas rochosas / alto das cachoeiras',
+                style: TextStyle(
+                  fontSize: 20,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+            ),
+            Padding(
+              padding: EdgeInsets.all(16.0),
+              child: Text(
+                'Animal: Leão/Touro',
+                style: TextStyle(
+                  fontSize: 20,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+            ),
+            Padding(
+              padding: EdgeInsets.all(16.0),
+              child: Text(
+                'Comida: Amalá (espécie de refogado de quiabos com dendê, coroado também com quiabos)',
+                style: TextStyle(
+                  fontSize: 20,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+            ),
           ],
         ),
       ),

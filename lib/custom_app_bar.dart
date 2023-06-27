@@ -1,6 +1,8 @@
+import 'package:appturn/chakras.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'orixas.dart';
+import 'chakras.dart';
 
 class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
   final BuildContext context;
@@ -49,6 +51,56 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
                               ),
                               SizedBox(width: 8),
                               Text('Orixás'),
+                            ],
+                          ),
+                        ),
+                      ),
+                      InkWell(
+                        onTap: () {
+                          // Ação ao selecionar a opção 1
+                          Navigator.pop(context); // Fechar o BottomSheet
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => ChakrasPage()),
+                          );
+                        },
+                        child: Container(
+                          padding: EdgeInsets.all(12),
+                          child: Row(
+                            children: [
+                              SvgPicture.asset(
+                                'icon/orixa.svg',
+                                width: 24,
+                                height: 24,
+                              ),
+                              SizedBox(width: 8),
+                              Text('Chakras'),
+                            ],
+                          ),
+                        ),
+                      ),
+                      InkWell(
+                        onTap: () {
+                          // Ação ao selecionar a opção 1
+                          Navigator.pop(context); // Fechar o BottomSheet
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => OrixasPage()),
+                          );
+                        },
+                        child: Container(
+                          padding: EdgeInsets.all(12),
+                          child: Row(
+                            children: [
+                              SvgPicture.asset(
+                                'icon/orixa.svg',
+                                width: 24,
+                                height: 24,
+                              ),
+                              SizedBox(width: 8),
+                              Text('Teste'),
                             ],
                           ),
                         ),

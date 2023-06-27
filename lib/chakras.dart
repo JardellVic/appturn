@@ -1,3 +1,4 @@
+import 'package:appturn/chakraspage.dart';
 import 'package:flutter/material.dart';
 import 'custom_app_bar.dart';
 import 'altar.dart';
@@ -25,14 +26,14 @@ class ChakrasPage extends StatelessWidget {
               // Ação ao pressionar o primeiro card
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => AltarPage()),
+                MaterialPageRoute(builder: (context) => Chakrastext()),
               );
             },
           ),
           ElevatedCardExample(
             imagePath:
                 'https://jardellvic.github.io/appturn/imagens/orixas/oxala.jpg',
-            description: 'BASE (MULADHARA)',
+            description: 'BASE ',
             onPressed: () {
               // Ação ao pressionar o segundo card
               Navigator.push(
@@ -44,7 +45,7 @@ class ChakrasPage extends StatelessWidget {
           ElevatedCardExample(
             imagePath:
                 'https://jardellvic.github.io/appturn/imagens/orixas/nana.jpg',
-            description: 'UMBILICAL (SVADISTHIANA)',
+            description: 'UMBILICAL',
             onPressed: () {
               // Ação ao pressionar o terceiro card
               Navigator.push(
@@ -56,7 +57,7 @@ class ChakrasPage extends StatelessWidget {
           ElevatedCardExample(
             imagePath:
                 'https://jardellvic.github.io/appturn/imagens/orixas/oxossi.jpg',
-            description: 'PLEXO SOLAR E UMBILICAL (MANIPURA)',
+            description: 'PLEXO SOLAR E UMBILICAL',
             onPressed: () {
               // Ação ao pressionar o quarto card
               Navigator.push(
@@ -68,7 +69,7 @@ class ChakrasPage extends StatelessWidget {
           ElevatedCardExample(
             imagePath:
                 'https://jardellvic.github.io/appturn/imagens/orixas/xango.jpg',
-            description: 'CARDÍACO (ANAHATA)',
+            description: 'CARDÍACO ',
             onPressed: () {
               // Ação ao pressionar o quinto card
               Navigator.push(
@@ -80,7 +81,7 @@ class ChakrasPage extends StatelessWidget {
           ElevatedCardExample(
             imagePath:
                 'https://jardellvic.github.io/appturn/imagens/orixas/ogum.jpg',
-            description: 'LARÍNGEO (VISHUDDHA)',
+            description: 'LARÍNGEO',
             onPressed: () {
               // Ação ao pressionar o sexto card
               Navigator.push(
@@ -92,7 +93,7 @@ class ChakrasPage extends StatelessWidget {
           ElevatedCardExample(
             imagePath:
                 'https://jardellvic.github.io/appturn/imagens/orixas/omulu.jpg',
-            description: 'FRONTAL OU 3o OLHO (AJNA)',
+            description: 'FRONTAL OU 3o OLHO',
             onPressed: () {
               // Ação ao pressionar o sétimo card
               Navigator.push(
@@ -104,7 +105,7 @@ class ChakrasPage extends StatelessWidget {
           ElevatedCardExample(
             imagePath:
                 'https://jardellvic.github.io/appturn/imagens/orixas/iansa.jpg',
-            description: 'CORONÁRIO (SAHASRARA)',
+            description: 'CORONÁRIO',
             onPressed: () {
               // Ação ao pressionar o oitavo card
               Navigator.push(

@@ -23,6 +23,10 @@ class HomePage extends StatelessWidget {
     'https://jardellvic.github.io/appturn/imagens/1.jpg',
     'https://jardellvic.github.io/appturn/imagens/2.jpg',
     'https://jardellvic.github.io/appturn/imagens/3.jpg',
+    'https://jardellvic.github.io/appturn/imagens/4.jpg',
+    'https://jardellvic.github.io/appturn/imagens/5.jpg',
+    'https://jardellvic.github.io/appturn/imagens/6.jpg',
+    'https://jardellvic.github.io/appturn/imagens/7.jpg',
   ];
 
   @override

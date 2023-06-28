@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:carousel_slider/carousel_slider.dart';
-import 'package:flutter_svg/flutter_svg.dart';
 import 'custom_app_bar.dart';
-import 'orixas.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 
 void main() => runApp(MyApp());

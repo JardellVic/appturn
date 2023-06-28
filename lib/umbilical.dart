@@ -12,7 +12,7 @@ class UmbilicalPage extends StatelessWidget {
           mainAxisSize: MainAxisSize.min,
           children: [
             Image.network(
-              'https://jardellvic.github.io/appturn/imagens/chakras/chakras.jpg',
+              'https://jardellvic.github.io/appturn/imagens/chakras/umbilical.jpg',
               fit: BoxFit.cover,
             ),
             Padding(
@@ -29,7 +29,7 @@ class UmbilicalPage extends StatelessWidget {
               padding: EdgeInsets.all(16.0),
               child: Text(
                 'O swadhisthana corresponde a cor laranja. O chakra sacro, como também é conhecido, fica localizado na região do umbigo e é responsável pelas ações, ideias e poder pessoal. Além disso, uma vez equilibrado, tem o poder do amor e está diretamente ligado ao sistema reprodutivo. Problemas relacionados a sentimentos de rancor, ódio (ligados a um amor adoecido), tendem a concentrar energia neste chakra. Causam geralmente problemas no trato intestinal e renal.',
-                style: TextStyle(
+                style: const TextStyle(
                   fontSize: 20,
                   fontWeight: FontWeight.bold,
                 ),

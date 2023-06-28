@@ -1,6 +1,6 @@
-import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:video_player/video_player.dart';
+import 'video_Manager.dart';
 import 'home_page.dart';
 
 void main() => runApp(MyApp());
@@ -13,23 +13,23 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
-  late VideoPlayerController _controller;
+  late VideoManager _videoManager;
   late Future<void> _initializeVideoPlayerFuture;
 
   @override
   void initState() {
     super.initState();
-    _controller = VideoPlayerController.asset('assets/Vlogin.mp4');
-    _initializeVideoPlayerFuture = _controller.initialize().then((_) {
+    _videoManager = VideoManager();
+    _initializeVideoPlayerFuture = _videoManager.initialize().then((_) {
       setState(() {
-        _controller.play();
+        _videoManager.videoPlayerController.play();
       });
     });
   }
 
   @override
   void dispose() {
-    _controller.dispose();
+    _videoManager.dispose();
     super.dispose();
   }
 
@@ -55,8 +55,9 @@ class _MyAppState extends State<MyApp> {
                   height: double.infinity,
                   color: Colors.black,
                   child: AspectRatio(
-                    aspectRatio: _controller.value.aspectRatio,
-                    child: VideoPlayer(_controller),
+                    aspectRatio:
+                        _videoManager.videoPlayerController.value.aspectRatio,
+                    child: VideoPlayer(_videoManager.videoPlayerController),
                   ),
                 ),
               );

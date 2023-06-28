@@ -12,7 +12,7 @@ class CoronarioPage extends StatelessWidget {
           mainAxisSize: MainAxisSize.min,
           children: [
             Image.network(
-              'https://jardellvic.github.io/appturn/imagens/chakras/chakras.jpg',
+              'https://jardellvic.github.io/appturn/imagens/chakras/coronario.jpg',
               fit: BoxFit.cover,
             ),
             Padding(

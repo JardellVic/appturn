@@ -2,7 +2,7 @@ import 'chakras.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'orixas.dart';
-import 'chakras.dart';
+import 'DevMed.dart';
 
 class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
   final BuildContext context;
@@ -86,8 +86,7 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
                           Navigator.pop(context); // Fechar o BottomSheet
                           Navigator.push(
                             context,
-                            MaterialPageRoute(
-                                builder: (context) => OrixasPage()),
+                            MaterialPageRoute(builder: (context) => DevMPage()),
                           );
                         },
                         child: Container(
@@ -100,7 +99,7 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
                                 height: 24,
                               ),
                               SizedBox(width: 8),
-                              Text('Teste'),
+                              Text('Desenvolvimento mediúnico'),
                             ],
                           ),
                         ),

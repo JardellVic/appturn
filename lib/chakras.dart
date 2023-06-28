@@ -1,14 +1,13 @@
-import 'package:appturn/chakraspage.dart';
 import 'package:flutter/material.dart';
 import 'custom_app_bar.dart';
-import 'altar.dart';
-import 'oxala.dart';
-import 'nana.dart';
-import 'oxossi.dart';
-import 'xango.dart';
-import 'ogum.dart';
-import 'omulu.dart';
-import 'iansa.dart';
+import 'chakraspage.dart';
+import 'base.dart';
+import 'umbilical.dart';
+import 'plexoSolar.dart';
+import 'cardiaco.dart';
+import 'laringeo.dart';
+import 'frontal.dart';
+import 'coronario.dart';
 
 class ChakrasPage extends StatelessWidget {
   @override
@@ -32,85 +31,85 @@ class ChakrasPage extends StatelessWidget {
           ),
           ElevatedCardExample(
             imagePath:
-                'https://jardellvic.github.io/appturn/imagens/orixas/oxala.jpg',
+                'https://jardellvic.github.io/appturn/imagens/chakras/base.jpg',
             description: 'BASE ',
             onPressed: () {
               // Ação ao pressionar o segundo card
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => OxalaPage()),
+                MaterialPageRoute(builder: (context) => BasePage()),
               );
             },
           ),
           ElevatedCardExample(
             imagePath:
-                'https://jardellvic.github.io/appturn/imagens/orixas/nana.jpg',
+                'https://jardellvic.github.io/appturn/imagens/chakras/umbilical.jpg',
             description: 'UMBILICAL',
             onPressed: () {
               // Ação ao pressionar o terceiro card
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => NanaPage()),
+                MaterialPageRoute(builder: (context) => UmbilicalPage()),
               );
             },
           ),
           ElevatedCardExample(
             imagePath:
-                'https://jardellvic.github.io/appturn/imagens/orixas/oxossi.jpg',
+                'https://jardellvic.github.io/appturn/imagens/chakras/plexo.jpg',
             description: 'PLEXO SOLAR E UMBILICAL',
             onPressed: () {
               // Ação ao pressionar o quarto card
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => OxossiPage()),
+                MaterialPageRoute(builder: (context) => PlexoPage()),
               );
             },
           ),
           ElevatedCardExample(
             imagePath:
-                'https://jardellvic.github.io/appturn/imagens/orixas/xango.jpg',
+                'https://jardellvic.github.io/appturn/imagens/chakras/cardiaco.jpg',
             description: 'CARDÍACO ',
             onPressed: () {
               // Ação ao pressionar o quinto card
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => XangoPage()),
+                MaterialPageRoute(builder: (context) => CardiacoPage()),
               );
             },
           ),
           ElevatedCardExample(
             imagePath:
-                'https://jardellvic.github.io/appturn/imagens/orixas/ogum.jpg',
+                'https://jardellvic.github.io/appturn/imagens/chakras/laringeo.jpg',
             description: 'LARÍNGEO',
             onPressed: () {
               // Ação ao pressionar o sexto card
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => OgumPage()),
+                MaterialPageRoute(builder: (context) => LaringeoPage()),
               );
             },
           ),
           ElevatedCardExample(
             imagePath:
-                'https://jardellvic.github.io/appturn/imagens/orixas/omulu.jpg',
+                'https://jardellvic.github.io/appturn/imagens/chakras/frontal.jpg',
             description: 'FRONTAL OU 3o OLHO',
             onPressed: () {
               // Ação ao pressionar o sétimo card
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => OmuluPage()),
+                MaterialPageRoute(builder: (context) => FrontalPage()),
               );
             },
           ),
           ElevatedCardExample(
             imagePath:
-                'https://jardellvic.github.io/appturn/imagens/orixas/iansa.jpg',
+                'https://jardellvic.github.io/appturn/imagens/chakras/coronario.jpg',
             description: 'CORONÁRIO',
             onPressed: () {
               // Ação ao pressionar o oitavo card
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => IansaPage()),
+                MaterialPageRoute(builder: (context) => CoronarioPage()),
               );
             },
           ),

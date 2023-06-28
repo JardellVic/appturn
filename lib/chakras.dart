@@ -56,7 +56,7 @@ class ChakrasPage extends StatelessWidget {
           ElevatedCardExample(
             imagePath:
                 'https://jardellvic.github.io/appturn/imagens/chakras/plexo.jpg',
-            description: 'PLEXO SOLAR E UMBILICAL',
+            description: 'PLEXO SOLAR',
             onPressed: () {
               // Ação ao pressionar o quarto card
               Navigator.push(

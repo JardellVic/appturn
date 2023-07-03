@@ -3,9 +3,11 @@ import 'package:carousel_slider/carousel_slider.dart';
 import 'custom_app_bar.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 
-void main() => runApp(MyApp());
+void main() => runApp(const MyApp());
 
 class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -27,6 +29,8 @@ class HomePage extends StatelessWidget {
     'https://jardellvic.github.io/appturn/imagens/7.jpg',
   ];
 
+  HomePage({super.key});
+
   @override
   Widget build(BuildContext context) {
     final screenHeight = MediaQuery.of(context).size.height;
@@ -39,7 +43,7 @@ class HomePage extends StatelessWidget {
         children: [
           Positioned(
             top: 0,
-            child: Container(
+            child: SizedBox(
               height: screenHeight * 0.5,
               width: screenWidth,
               child: CarouselSlider(
@@ -55,10 +59,11 @@ class HomePage extends StatelessWidget {
                       return CachedNetworkImage(
                         imageUrl: imageUrl,
                         fit: BoxFit.cover,
-                        placeholder: (context, url) => Center(
+                        placeholder: (context, url) => const Center(
                           child: CircularProgressIndicator(),
                         ),
-                        errorWidget: (context, url, error) => Icon(Icons.error),
+                        errorWidget: (context, url, error) =>
+                            const Icon(Icons.error),
                       );
                     },
                   );

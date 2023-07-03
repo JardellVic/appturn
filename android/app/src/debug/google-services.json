@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "295391008990",
+    "firebase_url": "https://appturn-68d18-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "appturn-68d18",
+    "storage_bucket": "appturn-68d18.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:295391008990:android:0b78188084ab4ccf65ca4f",
+        "android_client_info": {
+          "package_name": "com.android.appturn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "295391008990-8lfb31gg5odkegm89o8ahvvv9ufk76ai.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.android.appturn",
+            "certificate_hash": "7faaa898ffc7bdaa06f7938bd351e1c405a9a470"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpSghF8tbXvLrsa3TLZUAJ8aTMvAxM_0M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:295391008990:android:c180d0f21f28969b65ca4f",
+        "android_client_info": {
+          "package_name": "com.example.appturn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "295391008990-1tgev65tnslr0ktesueurik8lu9o8q0u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.appturn",
+            "certificate_hash": "7faaa898ffc7bdaa06f7938bd351e1c405a9a470"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpSghF8tbXvLrsa3TLZUAJ8aTMvAxM_0M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

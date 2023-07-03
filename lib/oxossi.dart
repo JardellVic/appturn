@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'custom_app_bar.dart';
 
 class OxossiPage extends StatelessWidget {
+  const OxossiPage({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -15,7 +17,7 @@ class OxossiPage extends StatelessWidget {
               'https://jardellvic.github.io/appturn/imagens/orixa/oxossi.jpg',
               fit: BoxFit.cover,
             ),
-            Padding(
+            const Padding(
               padding: EdgeInsets.all(16.0),
               child: Text(
                 'Oxóssi',
@@ -25,7 +27,7 @@ class OxossiPage extends StatelessWidget {
                 ),
               ),
             ),
-            Padding(
+            const Padding(
               padding: EdgeInsets.all(16.0),
               child: Text(
                 'Orixá das matas e florestas, Oxossi é caçador! Nosso pai Oxossi é o Orixá do conhecimento e da fartura. Também é um Orixá muito ligado a área de criatividade em nossas vidas.',
@@ -35,7 +37,7 @@ class OxossiPage extends StatelessWidget {
                 ),
               ),
             ),
-            Padding(
+            const Padding(
               padding: EdgeInsets.all(16.0),
               child: Text(
                 'Sincretismo: São Sebastião',
@@ -45,7 +47,7 @@ class OxossiPage extends StatelessWidget {
                 ),
               ),
             ),
-            Padding(
+            const Padding(
               padding: EdgeInsets.all(16.0),
               child: Text(
                 'Cores: Verde, Branco',
@@ -55,7 +57,7 @@ class OxossiPage extends StatelessWidget {
                 ),
               ),
             ),
-            Padding(
+            const Padding(
               padding: EdgeInsets.all(16.0),
               child: Text(
                 'Significado do nome: Caçador noturno - Índio',
@@ -65,7 +67,7 @@ class OxossiPage extends StatelessWidget {
                 ),
               ),
             ),
-            Padding(
+            const Padding(
               padding: EdgeInsets.all(16.0),
               child: Text(
                 'Saudação: Okê Arô / Okê Odé (salve aquele que brada/fala mais alto - Salve o senhor das matas)',
@@ -75,7 +77,7 @@ class OxossiPage extends StatelessWidget {
                 ),
               ),
             ),
-            Padding(
+            const Padding(
               padding: EdgeInsets.all(16.0),
               child: Text(
                 'Ervas: Samambaias, guiné, jurema, capim-limão, mangueira, peregun-verde, cipó-caboclo, eucalipto, flores do campo.',
@@ -85,7 +87,7 @@ class OxossiPage extends StatelessWidget {
                 ),
               ),
             ),
-            Padding(
+            const Padding(
               padding: EdgeInsets.all(16.0),
               child: Text(
                 'Pedras: Quartzo Verde, amazonita, jaspe verde, turmalina verde.',
@@ -95,7 +97,7 @@ class OxossiPage extends StatelessWidget {
                 ),
               ),
             ),
-            Padding(
+            const Padding(
               padding: EdgeInsets.all(16.0),
               child: Text(
                 'Linha: Caboclos (caboclos de pena)',
@@ -105,7 +107,7 @@ class OxossiPage extends StatelessWidget {
                 ),
               ),
             ),
-            Padding(
+            const Padding(
               padding: EdgeInsets.all(16.0),
               child: Text(
                 'Os caboclos na Umbanda têm um papel de destaque na religião, afinal de contas a nossa religião foi anunciada por um, o Caboclo das Sete Encruzilhadas ou Chefe, como é chamado na Tenda Espírita Nossa Senhora da Piedade. De poucas palavras e muito trabalho, estas entidades vêm em terra com o arquétipo de índios brasileiros. Têm grande conhecimento de ervas e são muito atuantes em trabalhos de cura tanto espiritual quanto física.',
@@ -115,7 +117,7 @@ class OxossiPage extends StatelessWidget {
                 ),
               ),
             ),
-            Padding(
+            const Padding(
               padding: EdgeInsets.all(16.0),
               child: Text(
                 'Dia da semana: Quinta-feira',
@@ -125,7 +127,7 @@ class OxossiPage extends StatelessWidget {
                 ),
               ),
             ),
-            Padding(
+            const Padding(
               padding: EdgeInsets.all(16.0),
               child: Text(
                 'Data festiva: 20/01',
@@ -135,7 +137,7 @@ class OxossiPage extends StatelessWidget {
                 ),
               ),
             ),
-            Padding(
+            const Padding(
               padding: EdgeInsets.all(16.0),
               child: Text(
                 'Pontos de força: Matas fechadas, florestas (natureza)',
@@ -145,7 +147,7 @@ class OxossiPage extends StatelessWidget {
                 ),
               ),
             ),
-            Padding(
+            const Padding(
               padding: EdgeInsets.all(16.0),
               child: Text(
                 'Símbolo/ferramenta: Espada/Escudo',
@@ -155,7 +157,7 @@ class OxossiPage extends StatelessWidget {
                 ),
               ),
             ),
-            Padding(
+            const Padding(
               padding: EdgeInsets.all(16.0),
               child: Text(
                 'Animais: Pavão',
@@ -165,7 +167,7 @@ class OxossiPage extends StatelessWidget {
                 ),
               ),
             ),
-            Padding(
+            const Padding(
               padding: EdgeInsets.all(16.0),
               child: Text(
                 'Comida: Milho verde, axoxô.',

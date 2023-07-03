@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'custom_app_bar.dart';
 
 class OxumPage extends StatelessWidget {
+  const OxumPage({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -15,7 +17,7 @@ class OxumPage extends StatelessWidget {
               'https://jardellvic.github.io/appturn/imagens/orixa/oxum.jpg',
               fit: BoxFit.cover,
             ),
-            Padding(
+            const Padding(
               padding: EdgeInsets.all(16.0),
               child: Text(
                 'Oxum',
@@ -25,7 +27,7 @@ class OxumPage extends StatelessWidget {
                 ),
               ),
             ),
-            Padding(
+            const Padding(
               padding: EdgeInsets.all(16.0),
               child: Text(
                 'Orixá dos rios, riachos, cachoeiras... Água doce em movimento (água doce parada é de Nanã Buruquê na nossa doutrina). Ela é a Orixá do amor e da fertilidade. Estão ligados a ela, a fecundação e o amor entre os humanos. Sincretismo: Nossa Senhora da Conceição / Nossa Senhora Aparecida',
@@ -35,7 +37,7 @@ class OxumPage extends StatelessWidget {
                 ),
               ),
             ),
-            Padding(
+            const Padding(
               padding: EdgeInsets.all(16.0),
               child: Text(
                 'Cores: Azul escuro (principal), amarelo e dourado',
@@ -45,7 +47,7 @@ class OxumPage extends StatelessWidget {
                 ),
               ),
             ),
-            Padding(
+            const Padding(
               padding: EdgeInsets.all(16.0),
               child: Text(
                 'Significado do nome: Mãe da água doce',
@@ -55,7 +57,7 @@ class OxumPage extends StatelessWidget {
                 ),
               ),
             ),
-            Padding(
+            const Padding(
               padding: EdgeInsets.all(16.0),
               child: Text(
                 'Saudação: Oraieieoh / Aieieoh (salve a benevolente mãezinha)',
@@ -65,7 +67,7 @@ class OxumPage extends StatelessWidget {
                 ),
               ),
             ),
-            Padding(
+            const Padding(
               padding: EdgeInsets.all(16.0),
               child: Text(
                 'Ervas: Melissa, rosa amarela, calêndula, canela, lírio, marcela, lágrimas-de-nossa-senhora, patchuli.',
@@ -75,7 +77,7 @@ class OxumPage extends StatelessWidget {
                 ),
               ),
             ),
-            Padding(
+            const Padding(
               padding: EdgeInsets.all(16.0),
               child: Text(
                 'Pedras: Quartzo rosa, safira azul',
@@ -85,7 +87,7 @@ class OxumPage extends StatelessWidget {
                 ),
               ),
             ),
-            Padding(
+            const Padding(
               padding: EdgeInsets.all(16.0),
               child: Text(
                 'Linhas: Pombogiras e Erês',
@@ -95,7 +97,7 @@ class OxumPage extends StatelessWidget {
                 ),
               ),
             ),
-            Padding(
+            const Padding(
               padding: EdgeInsets.all(16.0),
               child: Text(
                 'As Pombogiras são para nós a versão feminina dos Exus, ou melhor dizendo, a energia feminina da linha de Exus. A muitos anos atrás eram denominadas Exu Mulher. Além de trabalharem como guardiãs, atuam também nos campos amorosos, mas não como sacerdotisas que trazem o parceiro amoroso em sete dias, não é isso, mas são extremamente capazes de trazer o seu amor próprio em sete dias. Assim elas atuam, cuidando e orientando com relação ao amor próprio, ao próprio cuidado e zelo.',
@@ -105,7 +107,7 @@ class OxumPage extends StatelessWidget {
                 ),
               ),
             ),
-            Padding(
+            const Padding(
               padding: EdgeInsets.all(16.0),
               child: Text(
                 'Já a linha de erês é regida por essa Orixá graças a sua ligação com o amor fraterno, muito marcante na linha das crianças. Contudo, na TURN, temos como regente principal desta linha o Orixá Ibejí ou São Cosme e São Damião no sincretismo.',
@@ -115,7 +117,7 @@ class OxumPage extends StatelessWidget {
                 ),
               ),
             ),
-            Padding(
+            const Padding(
               padding: EdgeInsets.all(16.0),
               child: Text(
                 'Dia da semana: Sábado',
@@ -125,7 +127,7 @@ class OxumPage extends StatelessWidget {
                 ),
               ),
             ),
-            Padding(
+            const Padding(
               padding: EdgeInsets.all(16.0),
               child: Text(
                 'Data Festiva: 12/10 (Nossa Senhora Aparecida), 08/12 (Nossa Senhora da Conceição)',
@@ -135,7 +137,7 @@ class OxumPage extends StatelessWidget {
                 ),
               ),
             ),
-            Padding(
+            const Padding(
               padding: EdgeInsets.all(16.0),
               child: Text(
                 'Símbolo/ferramenta: Coração, Abébé (espelho)',
@@ -145,7 +147,7 @@ class OxumPage extends StatelessWidget {
                 ),
               ),
             ),
-            Padding(
+            const Padding(
               padding: EdgeInsets.all(16.0),
               child: Text(
                 'Ponto de força: Rios, leitos de rios, riachos e cachoeiras',
@@ -155,7 +157,7 @@ class OxumPage extends StatelessWidget {
                 ),
               ),
             ),
-            Padding(
+            const Padding(
               padding: EdgeInsets.all(16.0),
               child: Text(
                 'Animal: Animais de água doce, abelha',
@@ -165,7 +167,7 @@ class OxumPage extends StatelessWidget {
                 ),
               ),
             ),
-            Padding(
+            const Padding(
               padding: EdgeInsets.all(16.0),
               child: Text(
                 'Comida: Quindim, Feijão fradinho, Melão amarelo, Banana Ouro',

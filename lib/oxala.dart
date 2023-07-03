@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'custom_app_bar.dart';
 
 class OxalaPage extends StatelessWidget {
+  const OxalaPage({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -15,7 +17,7 @@ class OxalaPage extends StatelessWidget {
               'https://jardellvic.github.io/appturn/imagens/orixa/oxala.jpg',
               fit: BoxFit.cover,
             ),
-            Padding(
+            const Padding(
               padding: EdgeInsets.all(16.0),
               child: Text(
                 'Quem é Oxalá?',
@@ -25,7 +27,7 @@ class OxalaPage extends StatelessWidget {
                 ),
               ),
             ),
-            Padding(
+            const Padding(
               padding: EdgeInsets.all(16.0),
               child: Text(
                 'Este Orixá é considerado por nós pai de todos os outros Orixás. Olorum, que é a causa de todas as coisas, criou Oxalá e deu a ele a missão de criar o Aiê (Terra). Sendoassim, Oxalá é um reflexo da imagem de Olorum.',
@@ -35,7 +37,7 @@ class OxalaPage extends StatelessWidget {
                 ),
               ),
             ),
-            Padding(
+            const Padding(
               padding: EdgeInsets.all(16.0),
               child: Text(
                 'Oxalá é o pai de todas as cabeças, o senhor de todos nós e está no lugar mais alto do congá (altar) como representação de que toda a energia vem dele. Oxalá trás consigo a energia da paz e da fé.',
@@ -45,7 +47,7 @@ class OxalaPage extends StatelessWidget {
                 ),
               ),
             ),
-            Padding(
+            const Padding(
               padding: EdgeInsets.all(16.0),
               child: Text(
                 'Sincretismo: Jesus Cristo',
@@ -55,7 +57,7 @@ class OxalaPage extends StatelessWidget {
                 ),
               ),
             ),
-            Padding(
+            const Padding(
               padding: EdgeInsets.all(16.0),
               child: Text(
                 'Cores: Branco, prata e/ou Cristal',
@@ -65,7 +67,7 @@ class OxalaPage extends StatelessWidget {
                 ),
               ),
             ),
-            Padding(
+            const Padding(
               padding: EdgeInsets.all(16.0),
               child: Text(
                 'Saudação: Epa Babá (saudamos o pai com grande admiração/entusiasmo)',
@@ -75,7 +77,7 @@ class OxalaPage extends StatelessWidget {
                 ),
               ),
             ),
-            Padding(
+            const Padding(
               padding: EdgeInsets.all(16.0),
               child: Text(
                 'Ervas: Boldo (tapete de Oxalá), folha de algodão, saião, rosa branca, manjericão.',
@@ -85,7 +87,7 @@ class OxalaPage extends StatelessWidget {
                 ),
               ),
             ),
-            Padding(
+            const Padding(
               padding: EdgeInsets.all(16.0),
               child: Text(
                 'Pedras: Quartzo branco, cristais brancos e translúcidos',
@@ -95,7 +97,7 @@ class OxalaPage extends StatelessWidget {
                 ),
               ),
             ),
-            Padding(
+            const Padding(
               padding: EdgeInsets.all(16.0),
               child: Text(
                 'Linhas de trabalho: Todas',
@@ -105,7 +107,7 @@ class OxalaPage extends StatelessWidget {
                 ),
               ),
             ),
-            Padding(
+            const Padding(
               padding: EdgeInsets.all(16.0),
               child: Text(
                 'Dia da semana: Sexta-feira',
@@ -115,7 +117,7 @@ class OxalaPage extends StatelessWidget {
                 ),
               ),
             ),
-            Padding(
+            const Padding(
               padding: EdgeInsets.all(16.0),
               child: Text(
                 'Data festiva: 25/12',
@@ -125,7 +127,7 @@ class OxalaPage extends StatelessWidget {
                 ),
               ),
             ),
-            Padding(
+            const Padding(
               padding: EdgeInsets.all(16.0),
               child: Text(
                 'Símbolo ou ferramenta: Cruz, Opaxorô (uma espécie de cajado que por sua vez é uma junção de 3 guarda-chuvas com uma pomba branca no topo).',
@@ -135,7 +137,7 @@ class OxalaPage extends StatelessWidget {
                 ),
               ),
             ),
-            Padding(
+            const Padding(
               padding: EdgeInsets.all(16.0),
               child: Text(
                 'Pontos de força: Campos abertos, alto dos montes verdes.',
@@ -145,7 +147,7 @@ class OxalaPage extends StatelessWidget {
                 ),
               ),
             ),
-            Padding(
+            const Padding(
               padding: EdgeInsets.all(16.0),
               child: Text(
                 'Animal: Pomba Branca',
@@ -155,7 +157,7 @@ class OxalaPage extends StatelessWidget {
                 ),
               ),
             ),
-            Padding(
+            const Padding(
               padding: EdgeInsets.all(16.0),
               child: Text(
                 'Comida: Canjica branca',

@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'custom_app_bar.dart';
 
 class LaringeoPage extends StatelessWidget {
+  const LaringeoPage({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -15,7 +17,7 @@ class LaringeoPage extends StatelessWidget {
               'https://jardellvic.github.io/appturn/imagens/chakras/laringeo.jpg',
               fit: BoxFit.cover,
             ),
-            Padding(
+            const Padding(
               padding: EdgeInsets.all(16.0),
               child: Text(
                 'LARÍNGEO (VISHUDDHA)',
@@ -25,7 +27,7 @@ class LaringeoPage extends StatelessWidget {
                 ),
               ),
             ),
-            Padding(
+            const Padding(
               padding: EdgeInsets.all(16.0),
               child: Text(
                 'O vishuddha, também conhecido como laríngeo e relacionado a cor azul, é o chakra do pescoço ou garganta. Ele é responsável pelas expressões humanas. É por meio dele que se exteriorizam os pensamento e sentimentos, por isso corresponde a vocalização e a comunicação. Problemas de comunicação podem acarretar problemas na garganta. Garganta inflamada sempre é sinal de que você não está falando tudo que deveria falar e reprimindo sentimentos.',

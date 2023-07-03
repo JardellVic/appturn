@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'custom_app_bar.dart';
 
 class PlexoPage extends StatelessWidget {
+  const PlexoPage({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -15,7 +17,7 @@ class PlexoPage extends StatelessWidget {
               'https://jardellvic.github.io/appturn/imagens/chakras/plexo.jpg',
               fit: BoxFit.cover,
             ),
-            Padding(
+            const Padding(
               padding: EdgeInsets.all(16.0),
               child: Text(
                 'PLEXO SOLAR(MANIPURA)',
@@ -25,7 +27,7 @@ class PlexoPage extends StatelessWidget {
                 ),
               ),
             ),
-            Padding(
+            const Padding(
               padding: EdgeInsets.all(16.0),
               child: Text(
                 'O manipura ou chakra do plexo solar está localizado na região do diafragma. Esse chakra corresponde a cor amarela e é responsável pelo poder e vontades do ser humano, ou seja, da personalidade de cada um, é nele que o ego se encontra. Também é com ele que as pessoas têm a capacidade de dominar sobre sentimentos como a tristeza. Angustia, amargura, tristeza, sentimentos de depressão se acumulam neste chakra. Causam problemas no estômago, figado... raiva contida gera problemas no estômago.',

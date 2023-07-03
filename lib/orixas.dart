@@ -13,6 +13,8 @@ import 'iemanja.dart';
 import 'ibeji.dart';
 
 class OrixasPage extends StatelessWidget {
+  const OrixasPage({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -28,7 +30,7 @@ class OrixasPage extends StatelessWidget {
               // Ação ao pressionar o primeiro card
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => AltarPage()),
+                MaterialPageRoute(builder: (context) => const AltarPage()),
               );
             },
           ),
@@ -40,7 +42,7 @@ class OrixasPage extends StatelessWidget {
               // Ação ao pressionar o segundo card
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => OxalaPage()),
+                MaterialPageRoute(builder: (context) => const OxalaPage()),
               );
             },
           ),
@@ -52,7 +54,7 @@ class OrixasPage extends StatelessWidget {
               // Ação ao pressionar o terceiro card
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => NanaPage()),
+                MaterialPageRoute(builder: (context) => const NanaPage()),
               );
             },
           ),
@@ -64,7 +66,7 @@ class OrixasPage extends StatelessWidget {
               // Ação ao pressionar o quarto card
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => OxossiPage()),
+                MaterialPageRoute(builder: (context) => const OxossiPage()),
               );
             },
           ),
@@ -76,7 +78,7 @@ class OrixasPage extends StatelessWidget {
               // Ação ao pressionar o quinto card
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => XangoPage()),
+                MaterialPageRoute(builder: (context) => const XangoPage()),
               );
             },
           ),
@@ -88,7 +90,7 @@ class OrixasPage extends StatelessWidget {
               // Ação ao pressionar o sexto card
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => OgumPage()),
+                MaterialPageRoute(builder: (context) => const OgumPage()),
               );
             },
           ),
@@ -100,7 +102,7 @@ class OrixasPage extends StatelessWidget {
               // Ação ao pressionar o sétimo card
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => OmuluPage()),
+                MaterialPageRoute(builder: (context) => const OmuluPage()),
               );
             },
           ),
@@ -112,7 +114,7 @@ class OrixasPage extends StatelessWidget {
               // Ação ao pressionar o oitavo card
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => IansaPage()),
+                MaterialPageRoute(builder: (context) => const IansaPage()),
               );
             },
           ),
@@ -124,7 +126,7 @@ class OrixasPage extends StatelessWidget {
               // Ação ao pressionar o nono card
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => OxumPage()),
+                MaterialPageRoute(builder: (context) => const OxumPage()),
               );
             },
           ),
@@ -136,7 +138,7 @@ class OrixasPage extends StatelessWidget {
               // Ação ao pressionar o décimo card
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => IemanjaPage()),
+                MaterialPageRoute(builder: (context) => const IemanjaPage()),
               );
             },
           ),
@@ -148,7 +150,7 @@ class OrixasPage extends StatelessWidget {
               // Ação ao pressionar o décimo primeiro card
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => IbejiPage()),
+                MaterialPageRoute(builder: (context) => const IbejiPage()),
               );
             },
           ),
@@ -166,7 +168,7 @@ class ElevatedCardExample extends StatelessWidget {
   final String description;
   final VoidCallback onPressed;
 
-  const ElevatedCardExample({
+  const ElevatedCardExample({super.key, 
     required this.imagePath,
     required this.description,
     required this.onPressed,
@@ -186,10 +188,10 @@ class ElevatedCardExample extends StatelessWidget {
               ),
             ),
             Padding(
-              padding: EdgeInsets.all(8.0),
+              padding: const EdgeInsets.all(8.0),
               child: Text(
                 description,
-                style: TextStyle(
+                style: const TextStyle(
                   fontSize: 16,
                   fontWeight: FontWeight.bold,
                 ),

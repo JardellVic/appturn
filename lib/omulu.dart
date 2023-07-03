@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'custom_app_bar.dart';
 
 class OmuluPage extends StatelessWidget {
+  const OmuluPage({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -15,7 +17,7 @@ class OmuluPage extends StatelessWidget {
               'https://jardellvic.github.io/appturn/imagens/orixa/omulu.jpg',
               fit: BoxFit.cover,
             ),
-            Padding(
+            const Padding(
               padding: EdgeInsets.all(16.0),
               child: Text(
                 'Omulu/Obaluaê',
@@ -25,7 +27,7 @@ class OmuluPage extends StatelessWidget {
                 ),
               ),
             ),
-            Padding(
+            const Padding(
               padding: EdgeInsets.all(16.0),
               child: Text(
                 'Importante sempre lembrarmos que, apesar do nome diferente, Omulu e Obaluaê são o mesmo Orixá, a mesma pessoa, só que em fases da vida ou idades diferentes. Obaluaê é a manifestação deste Orixá na sua fase mais jovem, nesta fase pedimos a este Orixá por saúde, recuperação de doenças e mazelas. Já em sua fase mais velha de vida, a Omulu recorremos quando existe a necessidade do encerramento de ciclos assim como a encarnação.',
@@ -35,7 +37,7 @@ class OmuluPage extends StatelessWidget {
                 ),
               ),
             ),
-            Padding(
+            const Padding(
               padding: EdgeInsets.all(16.0),
               child: Text(
                 'Os pontos de força e elementos são os mesmos para as duas fases de vida do Orixá.',
@@ -45,7 +47,7 @@ class OmuluPage extends StatelessWidget {
                 ),
               ),
             ),
-            Padding(
+            const Padding(
               padding: EdgeInsets.all(16.0),
               child: Text(
                 'Sincretismo: São Roque (Obaluaê) São Lázaro (Omulu)',
@@ -55,7 +57,7 @@ class OmuluPage extends StatelessWidget {
                 ),
               ),
             ),
-            Padding(
+            const Padding(
               padding: EdgeInsets.all(16.0),
               child: Text(
                 'Cores: Amarelo, branco e preto',
@@ -65,7 +67,7 @@ class OmuluPage extends StatelessWidget {
                 ),
               ),
             ),
-            Padding(
+            const Padding(
               padding: EdgeInsets.all(16.0),
               child: Text(
                 'Significado do nome: Rei / Senhor da Terra',
@@ -75,7 +77,7 @@ class OmuluPage extends StatelessWidget {
                 ),
               ),
             ),
-            Padding(
+            const Padding(
               padding: EdgeInsets.all(16.0),
               child: Text(
                 'Saudação: Atotô / Atotô Ajuberô (silêncio e respeito a Obaluaê)',
@@ -85,7 +87,7 @@ class OmuluPage extends StatelessWidget {
                 ),
               ),
             ),
-            Padding(
+            const Padding(
               padding: EdgeInsets.all(16.0),
               child: Text(
                 'Nanã Buruquê',
@@ -95,7 +97,7 @@ class OmuluPage extends StatelessWidget {
                 ),
               ),
             ),
-            Padding(
+            const Padding(
               padding: EdgeInsets.all(16.0),
               child: Text(
                 'Ervas: Babosa, assa-peixe, canela de velho, folha de louro, barba de velho, quaresmeira, crisântemo, manjericão.',
@@ -105,7 +107,7 @@ class OmuluPage extends StatelessWidget {
                 ),
               ),
             ),
-            Padding(
+            const Padding(
               padding: EdgeInsets.all(16.0),
               child: Text(
                 'Pedra: Onix preto',
@@ -115,7 +117,7 @@ class OmuluPage extends StatelessWidget {
                 ),
               ),
             ),
-            Padding(
+            const Padding(
               padding: EdgeInsets.all(16.0),
               child: Text(
                 'Linha: Também as Almas/Pretos Velhos (vide Nanã Buruquê)',
@@ -125,7 +127,7 @@ class OmuluPage extends StatelessWidget {
                 ),
               ),
             ),
-            Padding(
+            const Padding(
               padding: EdgeInsets.all(16.0),
               child: Text(
                 'Data Festiva: 16/08 (Obaluaê) 17/12 (Omulu)',
@@ -135,7 +137,7 @@ class OmuluPage extends StatelessWidget {
                 ),
               ),
             ),
-            Padding(
+            const Padding(
               padding: EdgeInsets.all(16.0),
               child: Text(
                 'Símbolo/ferramenta: Cruzeiro, Xaxará',
@@ -145,7 +147,7 @@ class OmuluPage extends StatelessWidget {
                 ),
               ),
             ),
-            Padding(
+            const Padding(
               padding: EdgeInsets.all(16.0),
               child: Text(
                 'Pontos de força: Calunga pequena (cemitério) e calunga grande (mar)',
@@ -155,7 +157,7 @@ class OmuluPage extends StatelessWidget {
                 ),
               ),
             ),
-            Padding(
+            const Padding(
               padding: EdgeInsets.all(16.0),
               child: Text(
                 'Animal: Cachorro',
@@ -165,7 +167,7 @@ class OmuluPage extends StatelessWidget {
                 ),
               ),
             ),
-            Padding(
+            const Padding(
               padding: EdgeInsets.all(16.0),
               child: Text(
                 'Comida: Pipoca (deburu)',

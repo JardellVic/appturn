@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'custom_app_bar.dart';
 
 class IbejiPage extends StatelessWidget {
+  const IbejiPage({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -15,7 +17,7 @@ class IbejiPage extends StatelessWidget {
               'https://jardellvic.github.io/appturn/imagens/orixa/ibeji.jpg',
               fit: BoxFit.cover,
             ),
-            Padding(
+            const Padding(
               padding: EdgeInsets.all(16.0),
               child: Text(
                 'Ibeji',
@@ -25,7 +27,7 @@ class IbejiPage extends StatelessWidget {
                 ),
               ),
             ),
-            Padding(
+            const Padding(
               padding: EdgeInsets.all(16.0),
               child: Text(
                 'Apesar do nome singular, Ibeji é um Orixá duplo, ou seja, são dois “seres” em um só. São irmãos gêmeos e a força deles está na união dos dois. É o Orixá responsável pela alegria, pureza, inocência que existe nas crianças.',
@@ -35,7 +37,7 @@ class IbejiPage extends StatelessWidget {
                 ),
               ),
             ),
-            Padding(
+            const Padding(
               padding: EdgeInsets.all(16.0),
               child: Text(
                 'Sincretismo: São Cosme e São Damião',
@@ -45,7 +47,7 @@ class IbejiPage extends StatelessWidget {
                 ),
               ),
             ),
-            Padding(
+            const Padding(
               padding: EdgeInsets.all(16.0),
               child: Text(
                 'Cores: Rosa (principal), branco ou azul claro.',
@@ -55,7 +57,7 @@ class IbejiPage extends StatelessWidget {
                 ),
               ),
             ),
-            Padding(
+            const Padding(
               padding: EdgeInsets.all(16.0),
               child: Text(
                 'Significado do nome: Gêmeos, aquele que são dois',
@@ -65,7 +67,7 @@ class IbejiPage extends StatelessWidget {
                 ),
               ),
             ),
-            Padding(
+            const Padding(
               padding: EdgeInsets.all(16.0),
               child: Text(
                 'Saudação: Onibejada / Dois dois (salve aqueles que são dois / salve o senhor da brincadeira)?',
@@ -75,7 +77,7 @@ class IbejiPage extends StatelessWidget {
                 ),
               ),
             ),
-            Padding(
+            const Padding(
               padding: EdgeInsets.all(16.0),
               child: Text(
                 'Ervas: Rosa cor de rosa, flores do campo, margaridas, alecrim, flor de alfazema, jasmim, rosinhas (sem espinhos), erva-doce',
@@ -85,7 +87,7 @@ class IbejiPage extends StatelessWidget {
                 ),
               ),
             ),
-            Padding(
+            const Padding(
               padding: EdgeInsets.all(16.0),
               child: Text(
                 'Pedras: Quartzo rosa, rodonita',
@@ -95,7 +97,7 @@ class IbejiPage extends StatelessWidget {
                 ),
               ),
             ),
-            Padding(
+            const Padding(
               padding: EdgeInsets.all(16.0),
               child: Text(
                 'Linhas: Erês / crianças',
@@ -105,7 +107,7 @@ class IbejiPage extends StatelessWidget {
                 ),
               ),
             ),
-            Padding(
+            const Padding(
               padding: EdgeInsets.all(16.0),
               child: Text(
                 'Essa linha apesar de não parecer, trabalha muito fortemente com descarrego e quebra de demandas. De forma muito sutil, as crianças conseguem desfazer feitiços que às vezes nem Exus e Pombogiras conseguem. São alegres e festeiros tal qual crianças de pouca idade e é assim que se apresentam, como criancinhas! Trazem para o terreiro alegria, pureza e amor.',
@@ -115,7 +117,7 @@ class IbejiPage extends StatelessWidget {
                 ),
               ),
             ),
-            Padding(
+            const Padding(
               padding: EdgeInsets.all(16.0),
               child: Text(
                 'Dia da semana: Domingo',
@@ -125,7 +127,7 @@ class IbejiPage extends StatelessWidget {
                 ),
               ),
             ),
-            Padding(
+            const Padding(
               padding: EdgeInsets.all(16.0),
               child: Text(
                 'Data Festiva: 27/09',
@@ -135,7 +137,7 @@ class IbejiPage extends StatelessWidget {
                 ),
               ),
             ),
-            Padding(
+            const Padding(
               padding: EdgeInsets.all(16.0),
               child: Text(
                 'Ponto de força: Jardins, pracinhas com brinquedos, campinas floridas ou planícies floridas',
@@ -145,7 +147,7 @@ class IbejiPage extends StatelessWidget {
                 ),
               ),
             ),
-            Padding(
+            const Padding(
               padding: EdgeInsets.all(16.0),
               child: Text(
                 'Animal: passarinhos',
@@ -155,7 +157,7 @@ class IbejiPage extends StatelessWidget {
                 ),
               ),
             ),
-            Padding(
+            const Padding(
               padding: EdgeInsets.all(16.0),
               child: Text(
                 'Comida: Açúcar, mel, balas, doces',

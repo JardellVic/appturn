@@ -10,6 +10,8 @@ import 'frontal.dart';
 import 'coronario.dart';
 
 class ChakrasPage extends StatelessWidget {
+  const ChakrasPage({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -25,7 +27,7 @@ class ChakrasPage extends StatelessWidget {
               // Ação ao pressionar o primeiro card
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => Chakrastext()),
+                MaterialPageRoute(builder: (context) => const Chakrastext()),
               );
             },
           ),
@@ -37,7 +39,7 @@ class ChakrasPage extends StatelessWidget {
               // Ação ao pressionar o segundo card
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => BasePage()),
+                MaterialPageRoute(builder: (context) => const BasePage()),
               );
             },
           ),
@@ -49,7 +51,7 @@ class ChakrasPage extends StatelessWidget {
               // Ação ao pressionar o terceiro card
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => UmbilicalPage()),
+                MaterialPageRoute(builder: (context) => const UmbilicalPage()),
               );
             },
           ),
@@ -61,7 +63,7 @@ class ChakrasPage extends StatelessWidget {
               // Ação ao pressionar o quarto card
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => PlexoPage()),
+                MaterialPageRoute(builder: (context) => const PlexoPage()),
               );
             },
           ),
@@ -73,7 +75,7 @@ class ChakrasPage extends StatelessWidget {
               // Ação ao pressionar o quinto card
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => CardiacoPage()),
+                MaterialPageRoute(builder: (context) => const CardiacoPage()),
               );
             },
           ),
@@ -85,7 +87,7 @@ class ChakrasPage extends StatelessWidget {
               // Ação ao pressionar o sexto card
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => LaringeoPage()),
+                MaterialPageRoute(builder: (context) => const LaringeoPage()),
               );
             },
           ),
@@ -97,7 +99,7 @@ class ChakrasPage extends StatelessWidget {
               // Ação ao pressionar o sétimo card
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => FrontalPage()),
+                MaterialPageRoute(builder: (context) => const FrontalPage()),
               );
             },
           ),
@@ -109,7 +111,7 @@ class ChakrasPage extends StatelessWidget {
               // Ação ao pressionar o oitavo card
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => CoronarioPage()),
+                MaterialPageRoute(builder: (context) => const CoronarioPage()),
               );
             },
           ),
@@ -124,7 +126,7 @@ class ElevatedCardExample extends StatelessWidget {
   final String description;
   final VoidCallback onPressed;
 
-  const ElevatedCardExample({
+  const ElevatedCardExample({super.key, 
     required this.imagePath,
     required this.description,
     required this.onPressed,
@@ -144,10 +146,10 @@ class ElevatedCardExample extends StatelessWidget {
               ),
             ),
             Padding(
-              padding: EdgeInsets.all(8.0),
+              padding: const EdgeInsets.all(8.0),
               child: Text(
                 description,
-                style: TextStyle(
+                style: const TextStyle(
                   fontSize: 16,
                   fontWeight: FontWeight.bold,
                 ),

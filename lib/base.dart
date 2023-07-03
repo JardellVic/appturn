@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'custom_app_bar.dart';
 
 class BasePage extends StatelessWidget {
+  const BasePage({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -15,7 +17,7 @@ class BasePage extends StatelessWidget {
               'https://jardellvic.github.io/appturn/imagens/chakras/base.jpg',
               fit: BoxFit.cover,
             ),
-            Padding(
+            const Padding(
               padding: EdgeInsets.all(16.0),
               child: Text(
                 'BASE (MULADHARA)',
@@ -25,7 +27,7 @@ class BasePage extends StatelessWidget {
                 ),
               ),
             ),
-            Padding(
+            const Padding(
               padding: EdgeInsets.all(16.0),
               child: Text(
                 'O muladhara é o chakra básico. Conhecido pela cor vermelha e localizado na base da espinha dorsal, é responsável pela região da pélvis, pernas e órgãos reprodutores. É por meio deste chakra que se faz a conexão com o mundo terreno. Tanto o físico quanto o emocional melhoram quando há equilíbrio neste chakra. É o chakra com maior energia telúrica ou física.',

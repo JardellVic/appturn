@@ -48,12 +48,7 @@ class _CustomAppBarState extends State<CustomAppBar> {
                           context,
                           MaterialPageRoute(
                               builder: (context) => const MyApp()),
-                        ).then((value) {
-                          setState(() {
-                            appBarTitle =
-                                'TURN'; // Atualizar o título da AppBar
-                          });
-                        });
+                        ).then((value) {});
                       },
                       child: Container(
                         padding: const EdgeInsets.all(12),
@@ -80,8 +75,7 @@ class _CustomAppBarState extends State<CustomAppBar> {
                               builder: (context) => const OrixasPage()),
                         ).then((value) {
                           setState(() {
-                            appBarTitle =
-                                'Orixás'; // Atualizar o título da AppBar
+                            // Atualizar o título da AppBar
                           });
                         });
                       },
@@ -109,10 +103,7 @@ class _CustomAppBarState extends State<CustomAppBar> {
                           MaterialPageRoute(
                               builder: (context) => const ChakrasPage()),
                         ).then((value) {
-                          setState(() {
-                            appBarTitle =
-                                'Chakras'; // Atualizar o título da AppBar
-                          });
+                          setState(() {});
                         });
                       },
                       child: Container(
@@ -138,12 +129,7 @@ class _CustomAppBarState extends State<CustomAppBar> {
                           context,
                           MaterialPageRoute(
                               builder: (context) => const DevMPage()),
-                        ).then((value) {
-                          setState(() {
-                            appBarTitle =
-                                'Desenvolvimento mediúnico'; // Atualizar o título da AppBar
-                          });
-                        });
+                        ).then((value) {});
                       },
                       child: Container(
                         padding: const EdgeInsets.all(12),
@@ -166,13 +152,9 @@ class _CustomAppBarState extends State<CustomAppBar> {
                         Navigator.pop(context); // Fechar o BottomSheet
                         Navigator.push(
                           context,
-                          MaterialPageRoute(builder: (context) => ForumPage()),
-                        ).then((value) {
-                          setState(() {
-                            appBarTitle =
-                                'Forum'; // Atualizar o título da AppBar
-                          });
-                        });
+                          MaterialPageRoute(
+                              builder: (context) => ForumScreen()),
+                        ).then((value) {});
                       },
                       child: Container(
                         padding: const EdgeInsets.all(12),
@@ -191,40 +173,13 @@ class _CustomAppBarState extends State<CustomAppBar> {
                     ),
                     InkWell(
                       onTap: () {
-                        // Ação ao selecionar a opção "Endereço"
-                        Navigator.pop(context); // Fechar o BottomSheet
-                        _launchURL(
-                            'https://maps.app.goo.gl/js75nA2FcbsTwJAdA'); // Abrir o link do site
-                      },
-                      child: Container(
-                        padding: const EdgeInsets.all(12),
-                        child: Row(
-                          children: [
-                            SvgPicture.asset(
-                              'icon/orixa.svg',
-                              width: 24,
-                              height: 24,
-                            ),
-                            const SizedBox(width: 8),
-                            const Text('Endereço'),
-                          ],
-                        ),
-                      ),
-                    ),
-                    InkWell(
-                      onTap: () {
                         // Ação ao selecionar a opção 1
                         Navigator.pop(context); // Fechar o BottomSheet
                         Navigator.push(
                           context,
                           MaterialPageRoute(
-                              builder: (context) => const ContatoPage()),
-                        ).then((value) {
-                          setState(() {
-                            appBarTitle =
-                                'Contato'; // Atualizar o título da AppBar
-                          });
-                        });
+                              builder: (context) => ContatoPage()),
+                        ).then((value) {});
                       },
                       child: Container(
                         padding: const EdgeInsets.all(12),

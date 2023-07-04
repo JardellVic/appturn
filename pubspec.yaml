@@ -50,6 +50,8 @@ dependencies:
   google_sign_in: ^6.1.4
   flutter_secure_storage: ^8.0.0
   url_launcher: ^6.1.11
+  flutter_launcher_icons: ^0.13.1
+  material_design_icons_flutter: ^7.0.7296
   
 
 

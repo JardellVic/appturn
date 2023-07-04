@@ -16,7 +16,7 @@ class _LoginPageState extends State<LoginPage> {
   late VideoManager _videoManager;
   final FirebaseAuth _auth = FirebaseAuth.instance;
   final GlobalKey<FormState> _formKey = GlobalKey<FormState>();
-  bool _loginFailed = false;
+  final bool _loginFailed = false;
   late VideoPlayerController _videoController;
 
   @override
@@ -106,7 +106,7 @@ class _LoginPageState extends State<LoginPage> {
                           child: ElevatedButton(
                             onPressed: _loginWithGoogle,
                             style: ElevatedButton.styleFrom(
-                              primary: Colors.white,
+                              backgroundColor: Colors.white,
                               onPrimary: Colors.black,
                             ),
                             child: const Text('Logar com Google'),

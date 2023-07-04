@@ -16,8 +16,6 @@ class _LoginPageState extends State<LoginPage> {
   late VideoManager _videoManager;
   final FirebaseAuth _auth = FirebaseAuth.instance;
   final GlobalKey<FormState> _formKey = GlobalKey<FormState>();
-  final TextEditingController _emailController = TextEditingController();
-  final TextEditingController _passwordController = TextEditingController();
   bool _loginFailed = false;
   late VideoPlayerController _videoController;
 
@@ -42,38 +40,6 @@ class _LoginPageState extends State<LoginPage> {
         _videoController.setLooping(true);
         setState(() {});
       });
-  }
-
-  Future<void> _login() async {
-    final String email = _emailController.text.trim();
-    final String password = _passwordController.text.trim();
-
-    try {
-      final UserCredential userCredential =
-          await _auth.signInWithEmailAndPassword(
-        email: email,
-        password: password,
-      );
-      final User? user = userCredential.user;
-
-      if (user != null) {
-        // Login successful, navigate to home page
-        Navigator.pushReplacement(
-          context,
-          MaterialPageRoute(builder: (context) => HomePage()),
-        );
-      } else {
-        // Handle login errors here
-        setState(() {
-          _loginFailed = true;
-        });
-      }
-    } catch (e) {
-      // Handle login errors here
-      setState(() {
-        _loginFailed = true;
-      });
-    }
   }
 
   Future<void> _loginWithGoogle() async {
@@ -134,74 +100,16 @@ class _LoginPageState extends State<LoginPage> {
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      TextFormField(
-                        controller: _emailController,
-                        decoration: InputDecoration(
-                          labelText: 'Email',
-                          filled: true,
-                          fillColor: Colors.transparent,
-                        ),
-                        validator: (String? value) {
-                          if (value == null || value.isEmpty) {
-                            return 'Por favor, insira um email válido.';
-                          }
-                          return null;
-                        },
-                      ),
-                      const SizedBox(height: 8.0),
-                      TextFormField(
-                        controller: _passwordController,
-                        decoration: InputDecoration(
-                          labelText: 'Senha',
-                          filled: true,
-                          fillColor: Colors.transparent,
-                        ),
-                        obscureText: true,
-                        validator: (String? value) {
-                          if (value == null || value.isEmpty) {
-                            return 'Por favor, insira uma senha válida.';
-                          }
-                          return null;
-                        },
-                      ),
-                      const SizedBox(height: 16.0),
-                      ElevatedButton(
-                        onPressed: () {
-                          setState(() {
-                            _loginFailed = false;
-                          });
-                          if (_formKey.currentState!.validate()) {
-                            _login();
-                          }
-                        },
-                        style: ElevatedButton.styleFrom(
-                          primary: Colors.white,
-                          onPrimary: Colors.black,
-                        ),
-                        child: const Text('Entrar'),
-                      ),
-                      const SizedBox(height: 16.0),
-                      const Text('Ou'),
-                      const SizedBox(height: 16.0),
-                      ElevatedButton(
-                        onPressed: _loginWithGoogle,
-                        style: ElevatedButton.styleFrom(
-                          primary: Colors.white,
-                          onPrimary: Colors.black,
-                        ),
-                        child: const Text('Logar com Google'),
-                      ),
-                      const SizedBox(height: 16.0),
-                      GestureDetector(
-                        onTap: () {
-                          // Navigate to the registration page or do any other logic
-                          // to handle user registration
-                        },
-                        child: Text(
-                          'Registrar-se',
-                          style: TextStyle(
-                            decoration: TextDecoration.underline,
-                            color: Colors.black,
+                      Expanded(
+                        child: Align(
+                          alignment: Alignment.bottomCenter,
+                          child: ElevatedButton(
+                            onPressed: _loginWithGoogle,
+                            style: ElevatedButton.styleFrom(
+                              primary: Colors.white,
+                              onPrimary: Colors.black,
+                            ),
+                            child: const Text('Logar com Google'),
                           ),
                         ),
                       ),

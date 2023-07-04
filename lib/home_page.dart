@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'TURN',
-      theme: ThemeData(primaryColor: Colors.white),
+      theme: ThemeData(primaryColor: const Color.fromARGB(255, 236, 4, 4)),
       home: HomePage(),
     );
   }

@@ -1,10 +1,12 @@
 import 'package:TURN/home_page.dart';
-
 import 'chakras.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'orixas.dart';
 import 'DevMed.dart';
+import 'package:url_launcher/url_launcher.dart';
+import 'forum.dart';
+import 'contato.dart';
 
 class CustomAppBar extends StatefulWidget implements PreferredSizeWidget {
   final BuildContext context;
@@ -158,6 +160,87 @@ class _CustomAppBarState extends State<CustomAppBar> {
                         ),
                       ),
                     ),
+                    InkWell(
+                      onTap: () {
+                        // Ação ao selecionar a opção 1
+                        Navigator.pop(context); // Fechar o BottomSheet
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(builder: (context) => ForumPage()),
+                        ).then((value) {
+                          setState(() {
+                            appBarTitle =
+                                'Forum'; // Atualizar o título da AppBar
+                          });
+                        });
+                      },
+                      child: Container(
+                        padding: const EdgeInsets.all(12),
+                        child: Row(
+                          children: [
+                            SvgPicture.asset(
+                              'icon/orixa.svg',
+                              width: 24,
+                              height: 24,
+                            ),
+                            const SizedBox(width: 8),
+                            const Text('Forum'),
+                          ],
+                        ),
+                      ),
+                    ),
+                    InkWell(
+                      onTap: () {
+                        // Ação ao selecionar a opção "Endereço"
+                        Navigator.pop(context); // Fechar o BottomSheet
+                        _launchURL(
+                            'https://maps.app.goo.gl/js75nA2FcbsTwJAdA'); // Abrir o link do site
+                      },
+                      child: Container(
+                        padding: const EdgeInsets.all(12),
+                        child: Row(
+                          children: [
+                            SvgPicture.asset(
+                              'icon/orixa.svg',
+                              width: 24,
+                              height: 24,
+                            ),
+                            const SizedBox(width: 8),
+                            const Text('Endereço'),
+                          ],
+                        ),
+                      ),
+                    ),
+                    InkWell(
+                      onTap: () {
+                        // Ação ao selecionar a opção 1
+                        Navigator.pop(context); // Fechar o BottomSheet
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) => const ContatoPage()),
+                        ).then((value) {
+                          setState(() {
+                            appBarTitle =
+                                'Contato'; // Atualizar o título da AppBar
+                          });
+                        });
+                      },
+                      child: Container(
+                        padding: const EdgeInsets.all(12),
+                        child: Row(
+                          children: [
+                            SvgPicture.asset(
+                              'icon/orixa.svg',
+                              width: 24,
+                              height: 24,
+                            ),
+                            const SizedBox(width: 8),
+                            const Text('Contato'),
+                          ],
+                        ),
+                      ),
+                    ),
                   ],
                 );
               },
@@ -166,5 +249,13 @@ class _CustomAppBarState extends State<CustomAppBar> {
         ),
       ],
     );
+  }
+
+  void _launchURL(String url) async {
+    if (await canLaunch(url)) {
+      await launch(url);
+    } else {
+      throw 'Não foi possível abrir o link: $url';
+    }
   }
 }
